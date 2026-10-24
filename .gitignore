@@ -1,0 +1,5 @@
+# Godot
+.godot/
+
+# Exports (upload the zip to itch.io instead)
+export/
