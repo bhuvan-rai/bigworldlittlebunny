@@ -1,10 +1,11 @@
-# big world, little guy
+# [big world, little bunny](https://tixeriz.itch.io/bigworldlittlebunny)
 
 *You are 16 pixels tall. Everything else is enormous.*
 
 Survive **60 seconds** of raining giants. Hand-drawn shapes start slow and accelerate on the way down, and after 9 seconds triangle spikes begin rising out of the ground — jump those. The bar at the top is your progress.
 
 Made for the [jame gam game jam](https://itch.io/jam/jame-gam-game-jam) — theme *"i'm just a little guy"*, with the jame gam palette twist: every gameplay and UI color comes straight from the jam palette.
+## [TO PLAY CLICK HERE](https://tixeriz.itch.io/bigworldlittlebunny)
 
 ## Controls
 
@@ -23,8 +24,8 @@ Made for the [jame gam game jam](https://itch.io/jam/jame-gam-game-jam) — them
 - Music starts when a run starts, stops at the end screen, restarts on retry
 - All art is hand-drawn, cropped shape-by-shape from one sketch sheet, and tinted to the jam palette
 - Fully code-driven scene: drop new PNGs into `art/` and they appear automatically
-
-## Run it
+  
+## Run it on godot
 
 1. Download **Godot 4.x Standard** (not .NET) from [godotengine.org](https://godotengine.org/download)
 2. Godot → **Import** → select `project.godot`
@@ -41,7 +42,7 @@ Made for the [jame gam game jam](https://itch.io/jam/jame-gam-game-jam) — them
 | Path | What it is |
 |---|---|
 | `scripts/main.gd` | Game loop, spawning, timer, screens, parallax, audio |
-| `scripts/player.gd` | The little guy (accel/jump physics + hitbox) |
+| `scripts/player.gd` | The little bunny (accel/jump physics + hitbox) |
 | `scripts/shape.gd` | Falling giants (they accelerate) |
 | `scripts/spike.gd` | Ground spikes: rise, linger, sink (pixel-perfect ground contact) |
 | `scripts/art.gd` | Loads art/audio from disk, draws placeholders if missing |
